@@ -1,0 +1,40 @@
+.container {
+  background: #282828;
+  box-shadow: 16px 16px 20px rgba(0, 0, 0, 0.15), -8px -8px 20px rgba(255, 255, 255, 0.05);
+  border-radius: 25px;
+  padding: 19px 15px;
+  margin: 6px 0;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nameGroup {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 13px;
+  width: 100%;
+  min-width: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.taskName {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.6);
+  white-space: nowrap;
+  font-size: 26px;
+}
+
+.description {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.6);
+  white-space: nowrap;
+}
